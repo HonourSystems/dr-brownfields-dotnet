@@ -1,0 +1,15 @@
+﻿Rank will not treat Ace as low in straight calculation.
+
+swap has a bug where it won't swap the last card
+
+Discard has a bug where discarding the highest index is allowed and will throw an exceptoin.
+
+Ranking calculation should be accurate, but is highly contingent on their being 5 cards.
+
+Tasks:
+Update Shuffle to mathematically pure shuffle
+Shuffle creates a random object, perhaps could use a Mock here to return a specific seed on the random.
+	- Test a shuffle without changing design.
+
+Enumeration breaking when multiple payouts are the same.
+
